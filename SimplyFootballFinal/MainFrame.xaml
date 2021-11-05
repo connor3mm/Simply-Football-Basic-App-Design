@@ -1,0 +1,26 @@
+﻿<Window x:Class="SimplyFootballFinal.MainFrame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimplyFootballFinal"
+        mc:Ignorable="d"
+        Title="MainFrame" Height="626.509" Width="813.578">
+    <Grid Margin="0,0,3.2,-20.2">
+        <TextBox HorizontalAlignment="Left" Height="492" Margin="360,53,0,-125" TextWrapping="Wrap" VerticalAlignment="Top" Width="397" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.457"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-2.336"/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button x:Name="btnAddFootballer" Content="Add Footballer" HorizontalAlignment="Left" Margin="33,53,0,0" VerticalAlignment="Top" Width="264" Height="99" FontSize="24" Click="btnAddFootballer_Click"/>
+        <Button x:Name="BtnListAll" Content="List all Football Profiles" HorizontalAlignment="Left" Margin="33,311,0,0" VerticalAlignment="Top" Width="264" Height="99" FontSize="24" Click="BtnListAll_Click"/>
+        <Button x:Name="btnPrint" Content="Print Footballer Profiles" HorizontalAlignment="Left" Margin="33,445,0,-124" VerticalAlignment="Top" Width="264" Height="99" FontSize="24" Click="btnPrint_Click"/>
+        <Button x:Name="btnFootProfile" Content="Add Footballer Profile" HorizontalAlignment="Left" Margin="33,181,0,0" VerticalAlignment="Top" Width="264" Height="99" FontSize="24" Click="btnFootProfile_Click"/>
+
+    </Grid>
+</Window>
